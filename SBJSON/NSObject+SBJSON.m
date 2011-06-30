@@ -37,7 +37,7 @@ typedef struct {
 
 static opts_t defaults(NSDictionary *x)
 {
-    opts_t y = {0,};
+    opts_t y = {0,0,0,0,0};
     y.maxdepth = 512;
     setOpt(y.before, x, @"SpaceBefore");
     setOpt(y.after, x, @"SpaceAfter");
